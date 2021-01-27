@@ -1,0 +1,100 @@
+*{
+  font-family: "roboto";
+  padding: 0;
+  margin: 0;
+}
+
+html,body,main,.view {
+  height: 100%;
+}
+
+body {
+  position: relative;
+	background: #f0f0f0;
+}
+
+main{
+  margin-top: 15px;
+}
+
+.btn-sm{
+  margin-left: 0px;
+}
+
+.photogallery{
+  display: flex;
+  width: 80%;
+  margin: 0% 10%;
+}
+
+.musicsound{
+  display: flex;
+  width: 80%;
+  margin: 1% 10%;
+}
+
+h1{
+  display: flex;
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.thema{
+  margin-bottom: 7%;
+}
+
+.thema1{
+  display: block;
+  background-color: rgb(194, 191, 191);
+  padding: 1% 5% 5% 5%;
+  width: 100%;
+}
+video{
+  width: 100%;
+}
+
+audio {
+  width: 270px;
+  height: 54px;
+  padding: 7px;
+}
+
+.footernav{
+  margin-top: 70%;
+}
+
+#game{
+  margin: 5% 0% 30% 30%;
+  align-self: center;
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  border: 5px solid rgb(37, 30, 107);
+  overflow: hidden;
+}
+#character{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(31, 216, 71);
+  border-radius: 50%;
+  position: relative;
+  top: 400px;
+  left: 190px;
+  z-index: 1000000;
+}
+.block{
+  width: 100%;
+  height: 20px;
+  background-color: rgb(37, 30, 107);
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+.hole{
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
